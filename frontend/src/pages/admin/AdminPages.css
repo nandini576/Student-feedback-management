@@ -1,0 +1,89 @@
+/* Admin Pages Specific Styles */
+
+.alert {
+  padding: 10px 14px;
+  border-radius: 8px;
+  margin-bottom: 16px;
+  font-size: 13px;
+}
+
+.alert-success {
+  background: #c6f6d5;
+  color: #22543d;
+  border: 1px solid #9ae6b4;
+}
+
+.alert-error {
+  background: #fed7d7;
+  color: #742a2a;
+  border: 1px solid #fc8181;
+}
+
+/* Dashboard specific */
+.admin-dashboard .stats-grid {
+  margin-bottom: 24px;
+}
+
+/* Register form - improved */
+.admin-register form {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+.admin-register .form-group {
+  margin-bottom: 16px;
+}
+
+.admin-register .form-label {
+  font-size: 13px;
+  font-weight: 600;
+  color: #4a5568;
+  margin-bottom: 6px;
+  display: block;
+}
+
+.admin-register .form-input,
+.admin-register .form-select {
+  padding: 10px 12px;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  font-size: 14px;
+  transition: all 0.2s ease;
+  width: 100%;
+}
+
+.admin-register .form-input:hover,
+.admin-register .form-select:hover {
+  border-color: #cbd5e0;
+}
+
+.admin-register .form-input:focus,
+.admin-register .form-select:focus {
+  outline: none;
+  border-color: #667eea;
+  box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+}
+
+.admin-register .btn {
+  margin-top: 8px;
+  padding: 12px 20px;
+  font-size: 14px;
+  border-radius: 8px;
+}
+
+/* Table actions */
+.data-table .btn {
+  padding: 6px 12px;
+  font-size: 12px;
+}
+
+/* Filter dropdown in card header */
+.card-header .form-select {
+  width: auto;
+  min-width: 150px;
+  padding: 8px 12px;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  font-size: 13px;
+}
